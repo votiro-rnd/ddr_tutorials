@@ -10,7 +10,7 @@ This repository includes two hands-on tutorials:
 
 1. **Clone and setup the repository**
    ```bash
-   git clone https://github.com/votiro-rnd/ddr_turorials.git  
+   git clone https://github.com/votiro-rnd/ddr_tutorials.git  
    cd ddr_tutorials
    python -m venv venv   # recommended: py3.10 and higher
    source venv/bin/activate   # On Windows: venv\Scripts\activate
@@ -25,11 +25,11 @@ This repository includes two hands-on tutorials:
 
 ## 🔐 Authentication
 
-To connect to the DDR services, you’ll need an API auth key - contact us if you need one.
+To connect to the DDR services, you’ll need a Developer-type API auth key - contact us if you need one.
 
 Set your key as an environment variable:
 ```bash
-export AUTH_KEY="your-api-key"    # On Windows: set AUTH_KEY="your-api-key"
+export AUTH_KEY="your-api-key"    # On Windows: set AUTH_KEY=<your-api-key>
 ```
 
 We will use this key in the notebooks.
